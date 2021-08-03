@@ -1,0 +1,12 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper  namespace="com.example.multidatasource.macMapper.UserMacMapper">
+    <insert id="insertUserMac" parameterType="com.example.multidatasource.bean.UserMac">
+        insert into user (name,sex,jobType) values (#{userMac.name},#{userMac.sex},#{userMac.jobType})
+    </insert>
+    <update id="updateUserMac" parameterType="com.example.multidatasource.bean.UserMac" >
+        update user set name = #{userMac.name}, sex=#{userMac.sex}, jobType=#{userMac.jobType}
+        where id = #{userMac.id}
+    </update>
+</mapper>

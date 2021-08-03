@@ -1,0 +1,2 @@
+{"id":"127.0.0.1.tm162778675093000001","wasCommitted":true,"participants":[{"uri":"127.0.0.1.tm1","state":"COMMITTING","expires":1627786761228,"resourceName":"linuxDataSource"},{"uri":"127.0.0.1.tm2","state":"COMMITTING","expires":1627786761228,"resourceName":"macDataSource"}]}
+{"id":"127.0.0.1.tm162778675093000001","wasCommitted":true,"participants":[{"uri":"127.0.0.1.tm1","state":"TERMINATED","expires":1627786761234,"resourceName":"linuxDataSource"},{"uri":"127.0.0.1.tm2","state":"TERMINATED","expires":1627786761234,"resourceName":"macDataSource"}]}

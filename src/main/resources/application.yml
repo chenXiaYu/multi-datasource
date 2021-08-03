@@ -1,0 +1,16 @@
+#datasource:
+#  - datasource_mac:
+#      username: root
+#      password: root
+#      host: 127.0.0.1
+#      port: 3306
+#  - datasource_linux:
+#      username: root
+#      password: 123456
+#      host: 192.168.15.164
+#      port: 3306
+
+logging:
+  level:
+    com.example.multidatasource.macMapper: trace
+    com.example.multidatasource.linuxMapper: trace
